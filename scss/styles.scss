@@ -1,0 +1,404 @@
+$blue-ground-color: #5995da;
+$white: #fff;
+$black: #222;
+$gray-title: #a9a9a9;
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.menu-container {
+  color: $white;
+  background-color: $blue-ground-color;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home {
+  padding-top: 10px;
+}
+
+.home a {
+  text-decoration: none;
+  color: $white;
+}
+
+.links a {
+  text-decoration: none;
+  color: $white;
+  margin: 10px;
+}
+
+.login {
+  margin-left: 20px;
+}
+
+.header-container {
+  color: $blue-ground-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+}
+
+.header {
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.greeting {
+  width: 400px;
+  height: 400px;
+  transition: transform 0.8s;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.greeting:hover {
+  transform: rotate(15deg);
+}
+
+.presentation {
+  padding-left: 100px;
+  align-self: center;
+}
+
+.grid-container {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.photo-skills {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.photo-grid-item {
+  border: 1px solid $white;
+  width: 100%;
+  height: inherit;
+}
+
+.grid-skill {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2%;
+}
+
+.social {
+  background-color: $blue-ground-color;
+}
+
+.first-item {
+  height: inherit;
+}
+
+.surf-image {
+  border-radius: 10%;
+  width: 500px;
+  height: 400px;
+  float: left;
+  margin-right: 6%;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+.surf-image:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.about-me {
+  text-align: center;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.footer-item {
+  border: 1px solid $white;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex: 1;
+}
+
+.mail a {
+  text-decoration: none;
+  color: #222;
+  padding: 10px;
+}
+
+.mail {
+  padding: 10px;
+  align-self: center;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.mail:hover {
+  background-color: lightblue;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    justify-content: center;
+  }
+
+  .presentation h1 h2 {
+    font-size: 10px;
+  }
+
+  .surf-image {
+    width: 400px;
+    height: 300px;
+    margin-left: 12%;
+    margin-bottom: 15px;
+  }
+  .title {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .about-me {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.center {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/*experiences*/
+
+.experiences {
+  height: inherit;
+  width: auto;
+  background-color: $blue-ground-color;
+  margin-top: 5%;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.title {
+  text-align: center;
+  color: $black;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.color-title {
+  color: $gray-title;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+  background-color: $white;
+}
+
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: $white;
+  border: 4px solid $gray-title;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid $white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent $white;
+}
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid $white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent $white transparent transparent;
+}
+
+.right::after {
+  left: -16px;
+}
+
+.content {
+  padding: 20px 30px;
+  background-color: $white;
+  position: relative;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 600px) {
+  .timeline::after {
+    left: 31px;
+  }
+
+  .title,
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  .container::before {
+    left: 60px;
+    border: medium solid $white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent $white transparent transparent;
+  }
+
+  .left::after,
+  .right::after {
+    left: 15px;
+  }
+
+  .right {
+    left: 0%;
+  }
+}
+
+#about {
+  padding-top: 7%;
+}
+#skills {
+  padding-top: 5%;
+}
