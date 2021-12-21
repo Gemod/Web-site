@@ -8,13 +8,22 @@
 # Web-site
 [![NPM Version][npm-image]][npm-url]
 
+This is the repo of my personal website.
+
+
+### Build with
+This project was built with 2 mainly technologies
+- HTML
+- Sass
 
 
 
+## Usage
+To use Sass to modify style, run follow command in root project, to make sure, sass generate or update styles.css file:
 
-
-
-
+```bash
+sass --watch scss/styles.scss css/styles.css
+```
 
 
 
