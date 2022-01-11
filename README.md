@@ -15,6 +15,8 @@ This is the repo of my personal website.
 This project was built with 2 mainly technologies
 - HTML
 - Sass
+- Bootstrap
+- Javascript
 
 
 
@@ -24,15 +26,6 @@ To use Sass to modify style, run follow command in root project, to make sure, s
 ```bash
 sass --watch scss/styles.scss css/styles.css
 ```
-
-
-
-
-
-
-
-
-
 
 ## Contact
 Gemod -  [@Twitter](https://twitter.com/gemod994)
