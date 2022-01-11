@@ -10,9 +10,8 @@
 
 This is the repo of my personal website.
 
-
 ### Build with
-This project was built with 2 mainly technologies
+This project was built with 4 mainly technologies
 - HTML
 - Sass
 - Bootstrap
