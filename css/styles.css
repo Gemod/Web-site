@@ -1,17 +1,5 @@
-@font-face {
-  font-family: "myfont";
-  src: url("font/JosefinSans-Medium.ttf");
-}
-@font-face {
-  font-family: "myfont-bold";
-  src: url("font/JosefinSans-Bold.ttf");
-}
-@font-face {
-  font-family: "mybold";
-  src: url("font/JosefinSans-BoldItalic.ttf");
-}
 body {
-  font-family: "mybold", sans-serif;
+  font-family: sans-serif;
   font-size: 1.1rem;
   overflow-x: hidden;
 }

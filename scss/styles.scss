@@ -1,21 +1,7 @@
-
-@font-face {
-  font-family: 'myfont';
-  src: url('font/JosefinSans-Medium.ttf');
-}
-@font-face {
-  font-family: 'myfont-bold';
-  src: url('font/JosefinSans-Bold.ttf');
-}
-@font-face {
-  font-family: 'mybold';
-  src: url('font/JosefinSans-BoldItalic.ttf');
-}
-
-body{
-	font-family: 'mybold', sans-serif;
-	font-size: 1.1rem;
-	overflow-x: hidden;
+body {
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  overflow-x: hidden;
 }
 
 * {
@@ -28,7 +14,7 @@ body{
   box-sizing: content-box;
 }
 
-.typewrite>.wrap {
+.typewrite > .wrap {
   border-right: 0.08em solid #000;
   color: #37b6ff;
 }
@@ -40,60 +26,56 @@ body{
 textarea {
   margin: 50px;
   width: 30%;
-
-
 }
 
 textarea::-webkit-resizer {
-
   background-color: #37b6ff;
 }
-#linkedin:hover{
-  fill:#000000;
+#linkedin:hover {
+  fill: #000000;
 }
-#github:hover{
-  fill:#37b6ff;
+#github:hover {
+  fill: #37b6ff;
 }
-#twitter:hover{
-  fill:#000000;
+#twitter:hover {
+  fill: #000000;
 }
-#instagram:hover{
-  fill:#37b6ff;
-}
-
-#telegram:hover{
-  fill:#000000;
+#instagram:hover {
+  fill: #37b6ff;
 }
 
-#facebook:hover{
-  fill:#37b6ff;
+#telegram:hover {
+  fill: #000000;
 }
 
+#facebook:hover {
+  fill: #37b6ff;
+}
 
-body::-webkit-scrollbar{
-	background-color: #37b6ff;
+body::-webkit-scrollbar {
+  background-color: #37b6ff;
   width: 12px;
 }
 
-body::-webkit-scrollbar-track{
+body::-webkit-scrollbar-track {
   background-color: #37b6ff;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 4px;
   height: 4px;
 }
 
-::-webkit-scrollbar-track{
-  background-color: rgba(0,0,0,.1);
-	border-radius: 0px;
+::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
 }
- 
-::-webkit-scrollbar-thumb{
-	border-radius: 0px;
-	background-color: #000;
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  background-color: #000;
 }
 
 ::-webkit-scrollbar-thumb:window-inactive {
-	background: #000;
+  background: #000;
 }
